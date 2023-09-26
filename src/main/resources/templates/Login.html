@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Colegio Jorgina</title>
+</head>
+<body>
+    <h1>Login</h1>
+
+    <form method="post" action="/login">
+        <label for="matricula">Matrícula:</label>
+        <input type="text" id="matricula" name="matricula" required><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br>
+
+        <input type="submit" value="Entrar">
+    </form>
+
+    <p th:text="${error}"></p>
+</body>
+</html>
