@@ -8,11 +8,11 @@
         <version>3.1.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.colegio.jorgina</groupId>
-    <artifactId>ColegioJorginaSite</artifactId>
+    <groupId>com.graduation</groupId>
+    <artifactId>systemgraduation</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ColegioJorginaSite</name>
-    <description>ColegioJorginaSite</description>
+    <name>systemgraduation</name>
+    <description>systemgraduation</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -20,11 +20,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.hibernate.validator</groupId>
-            <artifactId>hibernate-validator</artifactId>
-            <version>6.2.0.Final</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
